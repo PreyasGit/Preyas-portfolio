@@ -16,14 +16,14 @@ export default function Projects() {
       description:
         "Developed a static video calling web application with a focus on responsive design and a smooth user experience.",
       image: "/images/PH.jpg",
-      link: "/",
+      link: "https://github.com/PreyasGit/video-call",
     },
     {
       title: "Bucket List Web Application",
       description:
         "A personal project featuring wish prioritization, editing, categories, and notes. Currently working on user authentication and cloud storage.",
       image: "/images/PH.jpg",
-      link: "/",
+      link: "https://github.com/PreyasGit/New-Bucketlist",
     },
   ];
 

@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { link } from "fs";
 
 export default function Projects() {
   const projects = [
@@ -14,15 +15,15 @@ export default function Projects() {
       title: "Video Calling Web App",
       description:
         "Developed a static video calling web application with a focus on responsive design and a smooth user experience.",
-      image: "/placeholder.svg?height=200&width=300",
-      link: "#",
+      image: "/images/PH.jpg",
+      link: "/",
     },
     {
       title: "Bucket List Web Application",
       description:
         "A personal project featuring wish prioritization, editing, categories, and notes. Currently working on user authentication and cloud storage.",
-      image: "/placeholder.svg?height=200&width=300",
-      link: "#",
+      image: "/images/PH.jpg",
+      link: "/",
     },
   ];
 

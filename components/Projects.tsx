@@ -24,6 +24,13 @@ export default function Projects() {
       image: "/images/bucketlist.png",
       link: "https://new-bucketlist-omega.vercel.app/",
     },
+    {
+      title: "preyas-portfolio",
+      description:
+        "portfolio made with Next.js and Tailwind CSS to showcase my projects and skills in web development, design, and video editing.",
+      image: "/images/portfolio.png",
+      link: "https://new-bucketlist-omega.vercel.app/",
+    },
   ];
 
   return (

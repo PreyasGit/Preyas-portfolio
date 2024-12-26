@@ -63,9 +63,11 @@ body {
     --backgroundImage:url(../public/images/doodle-dark.png);
   }
 }
+
 .backgroundImage{
   background-image: var(--backgroundImage);
 }
+
 @layer base {
   * {
     @apply border-border;

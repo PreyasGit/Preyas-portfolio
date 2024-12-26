@@ -1,11 +1,8 @@
-import '../app/globals.css'
+import "../app/globals.css";
 
 export default function Hero() {
   return (
-    <section
-      className="py-24 text-center bg-cover bg-center backgroundImage"
-      
-    >
+    <section className="py-24 text-center bg-cover bg-center backgroundImage">
       <div className="py-24">
         <h1 className="text-6xl font-semibold tracking-tighter text-zinc-800 dark:text-zinc-300 sm:text-5xl md:text-6xl">
           Preyas Mistry

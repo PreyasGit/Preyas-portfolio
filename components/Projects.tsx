@@ -34,8 +34,8 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-16">
-      <h2 className="text-3xl font-bold mb-8">Projects</h2>
+    <section id="projects" className="py-32">
+      <h2 className="text-3xl font-bold mb-8 tracking-tighter">Projects</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <Card key={index}>

@@ -11,8 +11,8 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-16">
-      <h2 className="text-3xl font-bold mb-8">Skills</h2>
+    <section id="skills" className="py-32">
+      <h2 className="text-3xl font-bold mb-8 tracking-tighter">Skills</h2>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
           <Badge key={skill} variant="secondary">

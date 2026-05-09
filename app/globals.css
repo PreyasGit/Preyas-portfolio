@@ -75,4 +75,9 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Illustration styling for centered and properly scaled images */
+  .illustration {
+    @apply mx-auto max-w-full h-auto;
+  }
 }

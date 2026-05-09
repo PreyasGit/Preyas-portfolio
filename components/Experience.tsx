@@ -45,8 +45,8 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-16">
-      <h2 className="text-3xl font-bold mb-8">Experience</h2>
+    <section id="experience" className="py-32">
+      <h2 className="text-3xl font-bold mb-8 tracking-tighter">Experience</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {experiences.map((exp, index) => (
           <Card key={index} className="flex flex-col h-full">
@@ -58,8 +58,8 @@ export default function Experience() {
             </CardHeader>
             <CardContent className="flex flex-col justify-between flex-grow">
               <div>
-                <p className="mb-4">{exp.description}</p>
-                <p className="mb-4 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mb-4 text-slate-600 dark:text-slate-400">{exp.description}</p>
+                <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
                   {exp.technologies.join(" / ")}
                 </p>
               </div>

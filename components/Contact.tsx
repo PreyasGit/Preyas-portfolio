@@ -4,10 +4,10 @@ import { Textarea } from "@/components/ui/textarea";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-16">
+    <section id="contact" className="py-32">
       <div className="grid gap-8 md:grid-cols-2">
         <div>
-          <h2 className="text-4xl font-bold mb-8">Contact Me</h2>
+          <h2 className="text-4xl font-bold mb-8 tracking-tighter">Contact Me</h2>
           <form className="space-y-4">
             <Input placeholder="Your Name" />
             <Input type="email" placeholder="Your Email" />

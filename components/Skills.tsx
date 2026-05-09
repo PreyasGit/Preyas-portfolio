@@ -13,9 +13,9 @@ export default function Skills() {
   return (
     <section id="skills" className="py-32">
       <h2 className="text-3xl font-bold mb-8 tracking-tighter">Skills</h2>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-3">
         {skills.map((skill) => (
-          <Badge key={skill} variant="secondary">
+          <Badge key={skill} variant="minimalist" className="px-2 py-1 text-xs">
             {skill}
           </Badge>
         ))}

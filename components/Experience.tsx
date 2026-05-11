@@ -10,6 +10,28 @@ import { Button } from "@/components/ui/button";
 export default function Experience() {
   const experiences = [
     {
+      title: "AI Software Developer",
+      company: "Toeque Engineering",
+      period: "Oct 2025 - Mar 2026",
+      description:
+        "Architected scalable web platforms and microservices. Integrated custom Python-based AI agents using LangChain to enhance system intelligence and automation.",
+      technologies: ["Python", "LangChain", "Microservices", "Web Platforms"],
+      projectType: "",
+      projectLink: "",
+      buttonText: "",
+    },
+    {
+      title: "AI Engineer Intern",
+      company: "OMTECWEB Technologies",
+      period: "Jan 2025 - Jun 2025",
+      description:
+        "Developed interactive voice assistants and implemented Retrieval-Augmented Generation (RAG) pipelines using FAISS, Cohere, and LangChain.",
+      technologies: ["FAISS", "Cohere", "LangChain", "RAG"],
+      projectType: "",
+      projectLink: "",
+      buttonText: "",
+    },
+    {
       title: "Summer Intern",
       company: "Krtya Technologies Pvt. Ltd.",
       period: "May 2024 - Jun 2024",

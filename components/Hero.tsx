@@ -8,7 +8,7 @@ export default function Hero() {
           Preyas Mistry
         </h1>
         <p className="mt-4 text-2xl text-zinc-600 dark:text-zinc-400">
-          Web Developer | Designer | Video Editor
+        AI Engineer | Full-Stack Developer | UI Designer
         </p>
         <div className="mt-8 flex justify-center space-x-4"></div>
       </div>

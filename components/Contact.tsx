@@ -104,17 +104,20 @@ export default function Contact() {
           <h3 className="text-md font-light text-red-500 mt-9">Connect with me</h3>
           <div className="flex flex-wrap gap-2 text-5xl"> 
             {/* Your exact social links remain unchanged here */}
-            <a href="/assets/resume_preyas.pdf" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">resume</a>
+            <a href="/assets/Preyas_R_Mistry_Resume_.pdf" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">resume</a>
             <span className="text-muted-foreground">•</span>
             <a href="https://github.com/PreyasGit" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">github</a>
             <span className="text-muted-foreground">•</span>
             <a href="https://www.linkedin.com/in/preyas-mistry-1694ba259/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">linkedin</a>
+            <span className="text-muted-foreground">•</span>
+            <a href="https://www.behance.net/preyasmistry" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">Bēhance</a>
             <span className="text-muted-foreground">•</span>
             <a href="https://x.com/PREYASMISTRY3" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">X</a>
             <span className="text-muted-foreground">•</span>
             <a href="https://www.instagram.com/the.rebel.jedi/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">instagram</a>
             <span className="text-muted-foreground">•</span>
             <a href="https://www.patreon.com/c/preyasworks" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">patreon</a>
+            <span className="text-muted-foreground">•</span>
             <a href="https://music.apple.com/profile/the_rebel_jedi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">apple music</a>
             <span className="text-muted-foreground">•</span>
             <a href="https://ph.pinterest.com/preyasmistry/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-500 transition duration-200">pinterest</a>
